@@ -1,0 +1,33 @@
+/* -------- CAROUSEL STYLES ------------*/
+
+#container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  background-color: #dadada;
+}
+
+.carousel-cell {
+  width: 100%; 
+  height: 100vh;
+  margin-right: 10px;
+}
+
+img.full {
+	width: 100%;
+}
+
+.flickity-page-dots { /* position dots in carousel */
+  bottom: 10px;
+}
+
+.flickity-page-dots .dot { /* dots are lines */
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+  /*background-color: #fff;*/
+}
