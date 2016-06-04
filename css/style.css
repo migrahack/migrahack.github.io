@@ -36,13 +36,20 @@ h1 {
 	font-size: 95px;
 	line-height: 60px;
 	display: none;
-	-ms-transform: skewX(-7deg); /* IE 9 */
-    -webkit-transform: skewX(-7deg); /* Safari */
-    transform: skewX(-7deg); /* Standard syntax */
+}
+
+h1, .subhead {
+	-ms-transform: skewX(-6deg); /* IE 9 */
+    -webkit-transform: skewX(-6deg); /* Safari */
+    transform: skewX(-6deg); /* Standard syntax */
 }
 
 h1 span {
 	font-size: 50px;
+}
+
+p {
+	margin: 0;
 }
 
 #headline { /*img version*/
@@ -60,7 +67,53 @@ h1 span {
     width: 60%;
 }
 
-img.full {
-	width: 100%;
+.text-container { /*text-container on top of images*/
+	color: #fff;
+	background-color: rgba(76, 76, 76, 0.4);
+	width: 60%;
+	margin: 35px auto;
+	padding: 10px 20px 20px 20px;
 }
+
+.subhead {
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	font-size: 45px;
+	letter-spacing: -1px;
+	color: #FFFF00;
+}
+
+.info {
+	font-family: 'Inconsolata';
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.info a {
+	color: #fff;
+	/*text-decoration: none;*/
+}
+
+
+.explainer {
+	background-color: #fff;
+}
+
+.explainer .text-container { /*text-container NOT on top of images*/
+	margin-top: 30vh;
+	background-color: #fff;
+	color: #1e1e1e;
+}
+
+.explainer .subhead {
+	color: #1e1e1e;
+}
+
+
+
+
+
+
+
+
 
