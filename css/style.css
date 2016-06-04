@@ -1,32 +1,4 @@
-/* -------- CAROUSEL STYLES ------------*/
 
-#container {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-}
-
-.carousel-cell {
-  width: 100%; 
-  height: 100vh;
-  margin-right: 10px;
-}
-
-.flickity-page-dots { /* position dots in carousel */
-  bottom: 10px;
-}
-
-.flickity-page-dots .dot { /* dots are lines */
-  height: 4px;
-  width: 40px;
-  margin: 0;
-  border-radius: 0;
-   display: none;
-}
 
 /* ------------ STORY STYLES ------------ */
 
@@ -69,10 +41,10 @@ p {
 
 .text-container { /*text-container on top of images*/
 	color: #fff;
-	background-color: rgba(76, 76, 76, 0.4);
+	background-color: rgba(76, 76, 76, 0.5);
 	width: 60%;
 	margin: 35px auto;
-	padding: 10px 20px 20px 20px;
+	padding: 18px;
 }
 
 .subhead {
@@ -91,22 +63,49 @@ p {
 
 .info a {
 	color: #fff;
-	/*text-decoration: none;*/
 }
 
-
-.explainer {
+.explainer{ /*text-container NOT on top of images*/
 	background-color: #fff;
-}
-
-.explainer .text-container { /*text-container NOT on top of images*/
-	margin-top: 30vh;
-	background-color: #fff;
+	margin-top: 20vh;
 	color: #1e1e1e;
 }
 
 .explainer .subhead {
 	color: #1e1e1e;
+	margin-bottom: 30px;
+}
+
+.explainer .info {
+	margin-bottom: 30px;
+	font-size: 25px;
+	line-height: 24px;
+}
+
+#city-hall {
+	height: 100vh;
+}
+
+#city-hall .text-container {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	color: #1e1e1e;
+	background-color: #fff;
+	width: 30%;
+
+}
+
+#city-hall .info {
+	width: 80%;
+}
+
+.col-sm-4 img {
+	width: 100%;
+}
+
+.top {
+	margin-bottom: 25px;
 }
 
 
