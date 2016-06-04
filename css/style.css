@@ -7,17 +7,13 @@
   bottom: 0;
   top: 0;
   width: 100%;
-  background-color: #dadada;
+  background-color: #fff;
 }
 
 .carousel-cell {
   width: 100%; 
   height: 100vh;
   margin-right: 10px;
-}
-
-img.full {
-	width: 100%;
 }
 
 .flickity-page-dots { /* position dots in carousel */
@@ -29,5 +25,42 @@ img.full {
   width: 40px;
   margin: 0;
   border-radius: 0;
-  /*background-color: #fff;*/
+   display: none;
 }
+
+/* ------------ STORY STYLES ------------ */
+
+h1 {
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	font-size: 95px;
+	line-height: 60px;
+	display: none;
+	-ms-transform: skewX(-7deg); /* IE 9 */
+    -webkit-transform: skewX(-7deg); /* Safari */
+    transform: skewX(-7deg); /* Standard syntax */
+}
+
+h1 span {
+	font-size: 50px;
+}
+
+#headline { /*img version*/
+	display: block;
+    width: 70%;
+    margin-top: 29vh;
+    margin-left: 10%;
+}
+
+#dek {
+	margin-left: 11%;
+	margin-top: 70px;
+	font-family: 'Inconsolata';
+    font-size: 25px;
+    width: 60%;
+}
+
+img.full {
+	width: 100%;
+}
+
