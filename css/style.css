@@ -69,7 +69,7 @@ p {
 
 .explainer { /*text-container NOT on top of images*/
 	background-color: #fff;
-	margin-top: 20vh;
+	margin-top: 55px;
 	color: #1e1e1e;
 }
 
@@ -80,8 +80,8 @@ p {
 
 .explainer .info {
 	margin-bottom: 30px;
-	font-size: 25px;
-	line-height: 24px;
+	font-size: 23px;
+	line-height: 22px;
 }
 
 #city-hall {
@@ -99,11 +99,16 @@ p {
 }
 
 #city-hall .info {
-	width: 80%;
+	width: 95%;
 }
 
 .col-sm-4 img {
 	width: 100%;
+}
+
+.col-sm-4 .subhead {
+	color: #1e1e1e;
+	font-size: 28px;
 }
 
 .top {
@@ -131,13 +136,41 @@ p {
 
 .chart img {
 	display: block;
-	width: 75%;
+	width: 85%;
 	margin: 30px auto 20px auto;
+}
+
+.pdf .text-container {
+	background-color: #fff;
+	color: #1e1e1e;
+	margin-bottom: 10px;
+	/*float: right;*/
 }
 
 .pdf img {
 	float: left;
-	width: 45%;
+	width: 40%;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.pdf .subhead {
+	color: #1e1e1e;
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.pdf .info {
+	color: #1e1e1e;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.gif {
+	width: 90%;
+	margin: 0 auto;
 }
 
 
