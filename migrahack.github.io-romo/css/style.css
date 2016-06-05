@@ -1,0 +1,132 @@
+
+
+/* ------------ STORY STYLES ------------ */
+
+h1 {
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	font-size: 95px;
+	line-height: 60px;
+	display: none;
+}
+
+h1, .subhead {
+	-ms-transform: skewX(-6deg); /* IE 9 */
+    -webkit-transform: skewX(-6deg); /* Safari */
+    transform: skewX(-6deg); /* Standard syntax */
+}
+
+h1 span {
+	font-size: 50px;
+}
+
+p {
+	margin: 0;
+}
+
+#headline { /*img version*/
+	display: block;
+    width: 70%;
+    margin-top: 29vh;
+    margin-left: 10%;
+}
+
+#dek {
+	margin-left: 11%;
+	margin-top: 70px;
+	font-family: 'Inconsolata';
+    font-size: 25px;
+    line-height: 30px;
+    width: 60%;
+}
+
+.text-container { /*text-container on top of images*/
+	color: #fff;
+	background-color: rgba(76, 76, 76, 0.5);
+	width: 60%;
+	margin: 35px auto;
+	padding: 18px;
+}
+
+.subhead {
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	font-size: 45px;
+	letter-spacing: -1px;
+	color: #FFFF00;
+}
+
+.info {
+	font-family: 'Inconsolata';
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.info a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.explainer{ /*text-container NOT on top of images*/
+	background-color: #fff;
+	margin-top: 20vh;
+	color: #1e1e1e;
+}
+
+.explainer .subhead {
+	color: #1e1e1e;
+	margin-bottom: 30px;
+}
+
+.explainer .info {
+	margin-bottom: 30px;
+	font-size: 25px;
+	line-height: 24px;
+}
+
+#city-hall {
+	height: 100vh;
+}
+
+#city-hall .text-container {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	color: #1e1e1e;
+	background-color: #fff;
+	width: 30%;
+
+}
+
+#city-hall .info {
+	width: 80%;
+}
+
+.col-sm-4 img {
+	width: 100%;
+}
+
+.top {
+	margin-bottom: 25px;
+}
+
+.video .text-container {
+	width: 70%;
+	background-color: #fff;
+	color: #1e1e1e;
+}
+
+.video .subhead {
+	color: #1e1e1e;
+	font-size: 28px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
